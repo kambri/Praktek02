@@ -6,5 +6,6 @@ public class PerkalianAksi {
         n1.angka2 = 25;
         
         n1.cetakInfo();
+        System.out.println("Jumlah dari hasil perkalian tersebut adalah = "+n1.hasilperkalian());
     } 
 }

@@ -9,4 +9,10 @@ public class Perkalian {
         System.out.println("Angka Kedua   = "+angka2);
         System.out.println("==================================");
     }
+    
+    double hasilperkalian(){
+        double hasil;
+        hasil = angka1 * angka2;
+        return hasil;
+    }
 }
