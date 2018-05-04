@@ -8,5 +8,11 @@ public class PerkalianAksi {
         n1.cetakInfo();
         System.out.println("Jumlah dari hasil perkalian tersebut adalah = "+n1.hasilperkalian());
         n1.cetakhasil();
-    } 
+        
+        Perkalian n2 = new Perkalian();
+        n2.cetakInfo();
+        
+        Perkalian n3 = new Perkalian(40,20);
+        n3.cetakInfo();
+    }    
 }

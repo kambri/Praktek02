@@ -14,6 +14,13 @@ public class Perkalian {
         angka1 = 6;
         angka2 = 10;
     }
+
+    public Perkalian(double angka1, double angka2) {
+        this.angka1 = angka1;
+        this.angka2 = angka2;
+    }
+    
+    
     
     double hasilperkalian(){
         double hasil;
