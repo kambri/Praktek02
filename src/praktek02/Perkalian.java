@@ -15,4 +15,8 @@ public class Perkalian {
         hasil = angka1 * angka2;
         return hasil;
     }
+    
+    void cetakhasil(){
+        System.out.println("Jumlah dari hasil perkalian nya = "+hasilperkalian());
+    }
 }
