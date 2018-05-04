@@ -4,5 +4,7 @@ public class PerkalianAksi {
         Perkalian n1 = new Perkalian();
         n1.angka1 = 5;
         n1.angka2 = 25;
+        
+        n1.cetakInfo();
     } 
 }
