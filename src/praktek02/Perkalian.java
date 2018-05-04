@@ -9,6 +9,11 @@ public class Perkalian {
         System.out.println("Angka Kedua   = "+angka2);
         System.out.println("==================================");
     }
+
+    public Perkalian() {
+        angka1 = 6;
+        angka2 = 10;
+    }
     
     double hasilperkalian(){
         double hasil;
